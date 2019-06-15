@@ -21,6 +21,7 @@ public class Read {
     }
 
     @Test
+    // 访问hdfs集群方式3：通过url访问hdfs namenode
     public void readFromUrl() {
 
         InputStream in = null;

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f33d55-a050-4146-8a05-ae760066d447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/NewAccessWayToWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/bigdata/hdfs/Read.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Write.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/NewAccessWayToWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="160">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,40 +32,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Delete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/org/apache/hadoop/fs/FileSystem.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6669">
+              <caret line="432" column="59" selection-start-line="432" selection-start-column="49" selection-end-line="432" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Write.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="253">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="380">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -71,9 +102,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>InputStream</find>
+      <find>listStatus</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,9 +122,14 @@
         <option value="$PROJECT_DIR$/src/main/java/org/bigdata/hdfs/ReadFile" />
         <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Write.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/core-site.xml.tld" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/NewAccessWayToWrite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Delete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java" />
       </list>
     </option>
   </component>
@@ -114,10 +157,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="36" />
-    <option name="width" value="1458" />
-    <option name="height" value="704" />
+    <option name="x" value="49" />
+    <option name="y" value="17" />
+    <option name="width" value="1247" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -133,23 +177,61 @@
               <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
               <item name="hdfs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560009334180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560564728734" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -169,8 +251,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Read.readFromFSRandom">
-    <configuration name="Read.readFromFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NewAccessWayToWrite.writeFile">
+    <configuration name="Delete.delDirAndFileFromFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdfs" />
       <extension name="coverage">
         <pattern>
@@ -179,14 +261,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.bigdata.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.Read" />
-      <option name="METHOD_NAME" value="readFromFS" />
+      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.Delete" />
+      <option name="METHOD_NAME" value="delDirAndFileFromFS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Read.readFromFSRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewAccessWayToWrite.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdfs" />
       <extension name="coverage">
         <pattern>
@@ -195,14 +277,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.bigdata.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.Read" />
-      <option name="METHOD_NAME" value="readFromFSRandom" />
+      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.NewAccessWayToWrite" />
+      <option name="METHOD_NAME" value="readFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Read.readFromUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewAccessWayToWrite.writeFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdfs" />
       <extension name="coverage">
         <pattern>
@@ -210,22 +292,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="org.bigdata.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.Read" />
-      <option name="METHOD_NAME" value="readFromUrl" />
+      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.NewAccessWayToWrite" />
+      <option name="METHOD_NAME" value="writeFile" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Status.lsFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bigdata.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bigdata.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.Status" />
+      <option name="METHOD_NAME" value="lsFS" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Write.appendToFSFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bigdata.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bigdata.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="org.bigdata.hdfs.Write" />
+      <option name="METHOD_NAME" value="appendToFSFile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Read.readFromFSRandom" />
-        <item itemvalue="JUnit.Read.readFromFS" />
-        <item itemvalue="JUnit.Read.readFromUrl" />
+        <item itemvalue="JUnit.NewAccessWayToWrite.writeFile" />
+        <item itemvalue="JUnit.NewAccessWayToWrite.readFile" />
+        <item itemvalue="JUnit.Status.lsFS" />
+        <item itemvalue="JUnit.Delete.delDirAndFileFromFS" />
+        <item itemvalue="JUnit.Write.appendToFSFile" />
       </list>
     </recent_temporary>
   </component>
@@ -242,50 +355,62 @@
       <workItem from="1559920364038" duration="1403000" />
       <workItem from="1559921797540" duration="3426000" />
       <workItem from="1559925568246" duration="2895000" />
-      <workItem from="1559928731745" duration="4303000" />
+      <workItem from="1559928731745" duration="16000000" />
+      <workItem from="1560136165174" duration="2818000" />
+      <workItem from="1560443164637" duration="3160000" />
+      <workItem from="1560563535593" duration="973000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 37m 21s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="Status_lsFS - 2019.06.10 at 23h 45m 10s.xml">
+      <configuration name="Status.lsFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 44m 35s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="Status_lsFS - 2019.06.10 at 23h 52m 02s.xml">
+      <configuration name="Status.lsFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 45m 36s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="Status_lsFS - 2019.06.10 at 23h 52m 52s.xml">
+      <configuration name="Status.lsFS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 51m 15s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_readFile - 2019.06.14 at 23h 47m 03s.xml">
+      <configuration name="NewAccessWayToWrite.readFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 56m 04s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_readFile - 2019.06.14 at 23h 49m 01s.xml">
+      <configuration name="NewAccessWayToWrite.readFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 58m 55s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_readFile - 2019.06.14 at 23h 49m 28s.xml">
+      <configuration name="NewAccessWayToWrite.readFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromUrl - 2019.06.08 at 01h 59m 20s.xml">
-      <configuration name="Read.readFromUrl" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_readFile - 2019.06.14 at 23h 50m 59s.xml">
+      <configuration name="NewAccessWayToWrite.readFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromFS - 2019.06.08 at 23h 26m 19s.xml">
-      <configuration name="Read.readFromFS" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_readFile - 2019.06.14 at 23h 51m 58s.xml">
+      <configuration name="NewAccessWayToWrite.readFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromFS - 2019.06.08 at 23h 32m 45s.xml">
-      <configuration name="Read.readFromFS" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_readFile - 2019.06.14 at 23h 52m 10s.xml">
+      <configuration name="NewAccessWayToWrite.readFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Read_readFromFSRandom - 2019.06.08 at 23h 33m 17s.xml">
-      <configuration name="Read.readFromFSRandom" configurationId="JUnit" />
+    <history-entry file="NewAccessWayToWrite_writeFile - 2019.06.14 at 23h 58m 12s.xml">
+      <configuration name="NewAccessWayToWrite.writeFile" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12027000" />
+    <option name="totallyTimeSpent" value="30675000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="280" y="39" width="1458" height="704" extended-state="0" />
+    <frame x="49" y="17" width="1247" height="762" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34035385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,25 +419,25 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4045534" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49957877" visible="true" weight="0.31369427" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32982457" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35438597" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3257443" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.315625" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004212" side_tool="true" weight="0.31369427" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3296875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.2911302" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.2737995" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -341,6 +466,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -418,17 +557,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Write.java">
+    <entry file="file://$USER_HOME$/Desktop/fio.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/org/apache/commons/io/IOUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/core-default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/org/apache/hadoop/fs/FSDataInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6669">
+          <caret line="432" column="59" selection-start-line="432" selection-start-column="49" selection-end-line="432" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/NewAccessWayToWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Read.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/bigdata/hdfs/Write.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
